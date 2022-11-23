@@ -1,5 +1,4 @@
 import bacgroundPng from "../../resources/images/palac_bialy.png";
-import bacgroundSvg from "../../resources/images/Rectangle 215.svg";
 import buildingJpg from "../../resources/images/KADR_02_8.jpg";
 import handPng from "../../resources/images/ręka.png";
 import logoNewStories from "../../resources/images/nowe_historie.png";
@@ -7,7 +6,6 @@ import logoHvilePark from "../../resources/images/HvilePark.svg";
 import logoPalaceBraci from "../../resources/images/Palac_logo.svg";
 import {
   DottedBuildingPng,
-  BacgroundSvg,
   BuildingJpg,
   HideOverflow,
   Container,
@@ -19,6 +17,19 @@ import {
   BasicInfo,
   Line,
   InvitationText,
+  NeoFontWord,
+  AdoFontWord,
+  AdoItaFontWord,
+  ReaFontWord,
+  Border,
+  InfoBox,
+  SmallBox,
+  Box,
+  BigBox,
+  AdoBiggerSizeFontWord,
+  Input,
+  InputBox,
+  InputCheckBox,
 } from "./styled";
 
 const Footer = () => {
@@ -26,7 +37,33 @@ const Footer = () => {
     <Container>
       <HideOverflow>
         <DottedBuildingPng src={bacgroundPng} />
-        <p>hej</p>
+        <BigBox>
+          <SmallBox>
+            <NeoFontWord>Spotkanie z nami</NeoFontWord>
+            <AdoFontWord>UMÓWMY PREZENTACJĘ</AdoFontWord>
+            <InfoBox>
+              <Border>
+                <AdoItaFontWord>+48 502 567 144</AdoItaFontWord>
+                <ReaFontWord>Zadzwoń</ReaFontWord>
+              </Border>
+              <Border>
+                <AdoItaFontWord>biuro@nowehistorie.pl</AdoItaFontWord>
+                <ReaFontWord>Napisz</ReaFontWord>
+              </Border>
+            </InfoBox>
+          </SmallBox>
+          <Box>
+            <NeoFontWord>Zostaw swoje dane</NeoFontWord>
+            <AdoBiggerSizeFontWord>ODDZWONIMY</AdoBiggerSizeFontWord>
+            <InputBox>
+              <Input type="text" placeholder="Imię*" />
+              <Input type="text" placeholder="Nazwisko*" />
+              <Input type="text" placeholder="Adres e-mail*" />
+              <Input type="text" placeholder="Numer telefonu*" />
+              <InputCheckBox type="checkbox" />
+            </InputBox>
+          </Box>
+        </BigBox>
       </HideOverflow>
       <BuildingJpg src={buildingJpg} />
       <HandPng src={handPng} />
