@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/new-stories-react/static/css/main.073c9b0a.css",
-    "main.js": "/new-stories-react/static/js/main.8a2b1a45.js",
+    "main.js": "/new-stories-react/static/js/main.ed0ef904.js",
     "static/js/787.08b40c00.chunk.js": "/new-stories-react/static/js/787.08b40c00.chunk.js",
-    "static/media/logo.svg": "/new-stories-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/KADR_04_3.jpg": "/new-stories-react/static/media/KADR_04_3.6e05e3c1867b4b56eeeb.jpg",
+    "static/media/palac_bialy.png": "/new-stories-react/static/media/palac_bialy.23eae610cf0b9cad1bba.png",
+    "static/media/KADR_02_8.jpg": "/new-stories-react/static/media/KADR_02_8.6669c63257fab6e3fb37.jpg",
+    "static/media/ręka.png": "/new-stories-react/static/media/ręka.172ba844b4dc8b8b6e33.png",
+    "static/media/Palac_logo.svg": "/new-stories-react/static/media/Palac_logo.c04a9b0e91881fb40763e2921708d0b0.svg",
+    "static/media/nowe_historie.png": "/new-stories-react/static/media/nowe_historie.b3d27d27c7548a333de9.png",
+    "static/media/HvilePark.svg": "/new-stories-react/static/media/HvilePark.67cfb60da7705ad174cbc45b371a253c.svg",
     "index.html": "/new-stories-react/index.html",
-    "main.073c9b0a.css.map": "/new-stories-react/static/css/main.073c9b0a.css.map",
-    "main.8a2b1a45.js.map": "/new-stories-react/static/js/main.8a2b1a45.js.map",
+    "static/media/arrow.svg": "/new-stories-react/static/media/arrow.bdc734807fc32b5484ff6731dc06aef9.svg",
+    "main.ed0ef904.js.map": "/new-stories-react/static/js/main.ed0ef904.js.map",
     "787.08b40c00.chunk.js.map": "/new-stories-react/static/js/787.08b40c00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8a2b1a45.js"
+    "static/js/main.ed0ef904.js"
   ]
 }
