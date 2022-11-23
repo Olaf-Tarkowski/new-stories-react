@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin: 100px 0 85px;
+  color: #fff;
   position: relative;
 `;
 
@@ -10,7 +11,7 @@ export const HideOverflow = styled.div`
   position: relative;
   width: 1920px;
   height: 900px;
-  background-color: #0B1036;
+  background-color: #0b1036;
 `;
 
 export const DottedBuildingPng = styled.img`
@@ -48,6 +49,106 @@ export const HandPng = styled.img`
   animation-direction: alternate;
 `;
 
+export const BigBox = styled.div`
+  display: flex;
+`;
+
+export const SmallBox = styled.div`
+  margin: 588px 0 0 228px;
+`;
+
+export const InfoBox = styled.div`
+  width: 554px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const Border = styled.div`
+  width: 260px;
+  border: 1px solid #a59f90;
+  border-width: 1px 0 1px 0;
+`;
+
+export const Box = styled.div`
+  margin: 218px 0 0 184px;
+`;
+
+export const InputBox = styled.div`
+  width: 708px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 16px;
+  row-gap: 16px;
+`;
+
+export const Input = styled.input`
+  max-width: 724px;
+  padding: 26px 19px;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.84px;
+  border: 1px solid #a59f90;
+  color: #fff;
+  background-color: transparent;
+  ::placeholder {
+    color: #fff;
+  }
+  :first-child {
+    grid-column: 1/2;
+  }
+  :nth-child(3) {
+    grid-column: 1/4;
+  }
+  :nth-child(4) {
+    grid-column: 1/4;
+  }
+`;
+
+export const InputCheckBox = styled.input`
+  margin: 10px 0;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+`;
+
+export const NeoFontWord = styled.div`
+  font-family: "neonoir", sans-serif;
+  font-size: 26px;
+  color: #fbd5ca;
+`;
+
+export const AdoFontWord = styled.div`
+  margin: 21px 0 37px;
+  width: 460px;
+  font-family: "adobe-garamond-pro", serif;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 6px;
+`;
+
+export const AdoBiggerSizeFontWord = styled.div`
+  margin: 19px 0 54px;
+  font-family: "adobe-garamond-pro", serif;
+  font-size: 60px;
+  line-height: 85px;
+  letter-spacing: 12px;
+`;
+
+export const AdoItaFontWord = styled.div`
+  margin: 14px 0 2px;
+  font-family: "adobe-garamond-pro", serif;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.72px;
+`;
+
+export const ReaFontWord = styled.div`
+  margin-bottom: 12px;
+  font-size: 14px;
+  letter-spacing: 0.84px;
+`;
+
 export const InvitationText = styled.div`
   margin: 58px 0 69px;
   text-align: center;
@@ -66,6 +167,7 @@ export const ThreeColContainer = styled.div`
 `;
 
 export const BasicInfo = styled.div`
+  color: #0b1036;
   text-align: center;
   font-family: "adobe-garamond-pro", serif;
   font-size: 24px;
@@ -77,8 +179,7 @@ export const BasicInfo = styled.div`
 
 export const Line = styled.div`
   margin: 67px 0;
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column: 1/4;
   border-top: 1px solid #a59f90;
   width: 1464px;
 `;
