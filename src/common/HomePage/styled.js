@@ -39,12 +39,12 @@ export const Text = styled.div`
 
 export const CreamButton = styled.button`
   background: #fbd5ca;
-  border: none;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 0.96px;
   width: 230px;
   height: 70px;
+  border: none;
   transition: 0.9s;
   :hover {
     transform: scale(1.09);

@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: inline-grid;
   grid-template-columns: 1fr 4fr 1fr;
   align-items: center;
-  margin: 14px 80px;
+  margin: 14px 80px 11px;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.84px;
@@ -68,13 +68,13 @@ export const MeetingInput = styled.input`
 
 export const SendButton = styled.button`
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 0.84px;
   background: #fbd5ca;
-  border: none;
   width: 176px;
   height: 50px;
   outline: 1px solid #fbd5ca;
+  border: none;
   transition: 0.9s;
   :hover {
     transform: scale(1.09);
