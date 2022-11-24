@@ -28,8 +28,11 @@ import {
   BigBox,
   AdoBiggerSizeFontWord,
   Input,
-  InputBox,
+  InputContainer,
   InputCheckBox,
+  LabelCheckBox,
+  CheckBoxContainer,
+  CreamButton,
 } from "./styled";
 
 const Footer = () => {
@@ -55,13 +58,20 @@ const Footer = () => {
           <Box>
             <NeoFontWord>Zostaw swoje dane</NeoFontWord>
             <AdoBiggerSizeFontWord>ODDZWONIMY</AdoBiggerSizeFontWord>
-            <InputBox>
+            <InputContainer>
               <Input type="text" placeholder="Imię*" />
               <Input type="text" placeholder="Nazwisko*" />
               <Input type="text" placeholder="Adres e-mail*" />
               <Input type="text" placeholder="Numer telefonu*" />
+            </InputContainer>
+            <CheckBoxContainer>
               <InputCheckBox type="checkbox" />
-            </InputBox>
+              <LabelCheckBox>
+                Wyrażam zgodę na lorem ipsum dolor sit amet, consetetur
+                sadipscing …
+              </LabelCheckBox>
+            </CheckBoxContainer>
+            <CreamButton>Wyślij wiadomość</CreamButton>
           </Box>
         </BigBox>
       </HideOverflow>
