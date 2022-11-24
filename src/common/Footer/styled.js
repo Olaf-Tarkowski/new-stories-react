@@ -16,7 +16,7 @@ export const HideOverflow = styled.div`
 
 export const DottedBuildingPng = styled.img`
   position: absolute;
-  bottom: -22px;
+  top: 249px;
   right: -630px;
   width: 1024px;
   height: 674px;
@@ -73,7 +73,7 @@ export const Box = styled.div`
   margin: 218px 0 0 184px;
 `;
 
-export const InputBox = styled.div`
+export const InputContainer = styled.div`
   width: 708px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -93,7 +93,7 @@ export const Input = styled.input`
   ::placeholder {
     color: #fff;
   }
-  :first-child {
+  :nth-child(1) {
     grid-column: 1/2;
   }
   :nth-child(3) {
@@ -104,11 +104,46 @@ export const Input = styled.input`
   }
 `;
 
-export const InputCheckBox = styled.input`
-  margin: 10px 0;
+export const CheckBoxContainer = styled.label`
+  margin: 26px 0;
+  display: flex;
+  align-items: center;
+`;
+
+export const InputCheckBox = styled.div`
+  margin: 0 26px 0 0;
   width: 30px;
   height: 30px;
-  background-color: transparent;
+  border: 1px solid #a59f90;
+  :hover {
+    cursor: pointer;
+  }
+`;
+
+export const LabelCheckBox = styled.label`
+  font-size: 12px;
+`;
+
+
+export const CreamButton = styled.button`
+  position: absolute;
+  background-color: #fbd5ca;
+  text-align: center;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.84px;
+  width: 724px;
+  height: 70px;
+  border: none;
+  transition: 0.9s;
+  :hover {
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+  :active {
+    background: #cae5fb;
+  }
 `;
 
 export const NeoFontWord = styled.div`
@@ -122,7 +157,7 @@ export const AdoFontWord = styled.div`
   width: 460px;
   font-family: "adobe-garamond-pro", serif;
   font-size: 30px;
-  line-height: 42px;
+  height: 30px;
   letter-spacing: 6px;
 `;
 
@@ -130,12 +165,12 @@ export const AdoBiggerSizeFontWord = styled.div`
   margin: 19px 0 54px;
   font-family: "adobe-garamond-pro", serif;
   font-size: 60px;
-  line-height: 85px;
+  height: 61px;
   letter-spacing: 12px;
 `;
 
 export const AdoItaFontWord = styled.div`
-  margin: 14px 0 2px;
+  margin: 12px 0 2px;
   font-family: "adobe-garamond-pro", serif;
   font-style: italic;
   font-size: 24px;
@@ -151,6 +186,7 @@ export const ReaFontWord = styled.div`
 
 export const InvitationText = styled.div`
   margin: 58px 0 69px;
+  color: #0b1036;
   text-align: center;
   font-family: "adobe-garamond-pro", serif;
   font-size: 30px;
