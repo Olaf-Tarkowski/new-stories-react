@@ -1,3 +1,4 @@
+import ContactForm from "./common/ContactForm";
 import Footer from "./common/Footer";
 import Header from "./common/Header";
 import HomePage from "./common/HomePage";
@@ -8,6 +9,7 @@ function App() {
     <GlobalContainer>
       <Header />
       <HomePage />
+      <ContactForm />
       <Footer />
     </GlobalContainer>
   );
